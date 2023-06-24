@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+
+  background-color: rgb(255, 231, 236);
+  width: 100vw;
+}

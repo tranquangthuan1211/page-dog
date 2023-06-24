@@ -1,0 +1,35 @@
+.home {
+    text-align: center;
+    margin: 8rem 12rem 0 12rem;
+    font-size: 3rem;
+    color: rgb(151, 56, 91);
+    border: 4px solid white;
+    padding: 1rem 0;
+
+    .dog-icon {
+
+        color: white;
+        margin-top: 1rem;
+
+        .icon-1 {
+            margin: 0 1rem;
+            color: rgb(255, 123, 171);
+            padding: 5px;
+            border: 5px solid white;
+        }
+
+        .icon-2 {
+            padding: 5px;
+            border: 5px solid rgb(255, 159, 194);
+            ;
+        }
+
+    }
+}
+
+@media (max-width: 900px) {
+    .home {
+        font-size: 2em;
+        margin: 3em 1em;
+    }
+}
